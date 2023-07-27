@@ -1,0 +1,65 @@
+body {
+	margin: 0em;
+}
+
+/*.Layout--------------------------------------------------*/
+
+.sticky {
+	position: fixed;
+	top: 0;
+	background-color: #eee;
+	background: rgba(238,238,238,0.7);
+	width: 100%;
+}
+
+header,
+.container,
+footer {
+	margin: 0 auto;
+	width: 88%;
+	padding: 
+	max-width:960px;
+}
+
+.wrapper {
+	background: #ffffff;
+	padding: 1em 0;
+}
+
+section {
+	padding-top: 4em;
+}
+
+/*.Navigation----------------------------------------------*/
+
+nav ul {
+	padding: 0;
+}
+
+nav ul li {
+	float: left;
+	margin-right: .5em;
+	list-style: none;
+}
+
+nav ul li a {
+	padding: .5em .7em;
+	background:#CCCCCC;
+	border-radius: 15px;
+	transition: all 1s ease-in-out;
+}
+
+nav ul li a:hover {
+	background:pink;
+}
+
+/*.Misc-------------------------------------------------*/
+
+
+.clearfix:after {
+	content:".";
+	display:block;
+	height: 0;
+	clear:both;
+	visibility:hidden;
+}
